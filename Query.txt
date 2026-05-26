@@ -1,0 +1,7 @@
+	 Select * from FB_ENT_INFO_STATIC_TBL where ProductCode='automotion used mbi' order by StartDate desc
+
+begin tran
+
+update FB_DYNAMIC_PRICE_TBL set VersionID='542' where VersionID='541'
+
+rollback
